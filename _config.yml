@@ -20,7 +20,7 @@ title                    : "Dormancy's Homepage"
 title_separator          : "-"
 name                     : "Dormancy"
 description              : "Dormancy's academic homepage"
-url                      : #"https://elondormancy.github.io/Homepage/"
+url                      : "https://elondormancy.github.io/Homepage/"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
@@ -114,7 +114,7 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : 
+  github           : "https://github.com/ElonDormancy"
   gitlab           :
   google_plus      :
   keybase          :
