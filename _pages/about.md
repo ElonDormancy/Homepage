@@ -9,7 +9,7 @@ redirect_from:
 classes: wide
 ---
 
-<img src="../images/banner.png">
+<img src="../images/banner.jpg">
 
 # Introduction
 
