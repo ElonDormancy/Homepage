@@ -1,5 +1,5 @@
 ---
-title: "software_package1"
+title: "Quantum Universal Simulator"
 collection: code
 permalink: /code/software_package1
 excerpt: "A package that calculates some numbers!"
