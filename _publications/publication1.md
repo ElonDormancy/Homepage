@@ -15,7 +15,9 @@ This is the homepage demo
 demo
 
 ## Abstract
+
 Super details
 
 ## Recommended citation:
 Name2 et al. "Publication 1", 2012 (Journal 1)
+
