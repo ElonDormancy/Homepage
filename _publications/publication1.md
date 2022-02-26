@@ -8,15 +8,14 @@ venue: 'Journal'
 classes: wide
 ---
 ## Summary
-tl;dr
+This is the homepage demo
 
 ## Contribution
-This is what I did!
+
+demo
 
 ## Abstract
 Super details
-
-[Download paper here](https://www.paper.link/)
 
 ## Recommended citation:
 Name2 et al. "Publication 1", 2012 (Journal 1)
