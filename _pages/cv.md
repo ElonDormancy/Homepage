@@ -9,9 +9,10 @@ redirect_from:
 
 <style>
 a.uline {text-decoration:underline;}
+
 </style>
 
 {% include base_path %}
 
-<a href="../files/cv.pdf" class="uline">Click here for a full pdf copy of my CV</a>
+<a href="../files/cv.pdf" class="uline" style = "font-size:24px">Click here for a full pdf copy of my Curriculum Vitae</a>
 
