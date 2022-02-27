@@ -1,15 +1,18 @@
 ---
 layout: archive
-title: "Publications"
+title: "Research Experience"
 permalink: /publications/
 author_profile: true
 classes: wide
 ---
 
-Clicking on any of the links below will redirect you to the abstract and details of my contributions.
+Details of Research Experience
 
-{% include base_path %}
 
-{% for post in site.publications reversed %}
-  {% include archive-single.html %}
-{% endfor %}
+
+<!--{% include base_path %}-->
+
+<!--{% for post in site.publications reversed %}-->
+<!--  {% include archive-single.html %}-->
+<!--{% endfor %}-->
+
