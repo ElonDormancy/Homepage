@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "Research Experience"
+title: "Work"
 permalink: /publications/
 author_profile: true
 classes: wide
@@ -8,11 +8,9 @@ classes: wide
 
 Details of Research Experience
 
+# Quantum Information and Quantum Computing Seminar
 
+# Experimental study of quantum information processing in the ion trap system
 
-<!--{% include base_path %}-->
-
-<!--{% for post in site.publications reversed %}-->
-<!--  {% include archive-single.html %}-->
-<!--{% endfor %}-->
+# Quantum Spin Systems and Quantum Computation(Simulation)
 
