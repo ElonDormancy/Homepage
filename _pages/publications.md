@@ -33,8 +33,6 @@ Details of Research Experience
 
 (1) Prove that if a rotation through an angle $\beta_{1}$ about the axis $n_1$ is followed by a rotation through an angle $\beta_{2}$ about an axis $n_2$, then the overall rotation is through an angle $\beta_{12}$ about an axis $n_{12}$ given by
 
-
-
 $$
 \begin{equation}
 c_{12} =c_{1} c_{2}-s_{1} s_{2} \hat{n}_{1} \cdot \hat{n}_{2}
@@ -51,8 +49,6 @@ where $c_{i}=\cos(\beta_{i} / 2), s_{i}=\sin (\beta_{i} / 2), c_{12}=\cos (\beta
 
 
 (2) Show that if $\beta_{1}=\beta_{2}$ and $\hat{n}_{1}=\hat{z}$ these equations simplify to
-
-
 
 $$
 \begin{equation}
@@ -190,13 +186,12 @@ We use this method to simulate the propagation of electromagnetic waves in TM Mo
 
 And Chebyshev Time Integration may also solve the problem fastly
 
- 
+
 $$
 \exp(tH) = [J_0(z)I+2\sum_{n=1}^{+\infty}J_n(z)i^n T_n(B)]
 $$
 
-
-<center>    <img src="/Homepage/images/Maxwell_Wave.gif">    <br>    <div style="color:orange; border-bottom: 1px solid #d9d9d9;    display: inline-block;    color: #999;    padding: 2px;">The result of numerically solving the Schrödinger equation and its initial state is a Gaussian Wave(Grid)</div> </center>
+<center>    <img src="/Homepage/images/Schrodinger.gif">    <br>    <div style="color:orange; border-bottom: 1px solid #d9d9d9;    display: inline-block;    color: #999;    padding: 2px;">The result of numerically solving the Schrödinger equation and its initial state is a Gaussian Wave(Grid)</div> </center>
 
 
 
