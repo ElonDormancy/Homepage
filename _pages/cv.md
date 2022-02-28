@@ -65,6 +65,3 @@ Programming skills: C,C++,Javascript,Python,Lisp(20k+)
 **School of Physics and Technology,Wuhan University,Wuhan,Hubei China**    *2019.9-2023.7(Expected)*
 
 Tianjuan Class,a joint training class of the School of Physics of WHU and the WIPM of CAS.
-
-**GPA**     3.85/4.0 (major) 3.87/4.0(total)
-

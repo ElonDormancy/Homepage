@@ -34,6 +34,7 @@ Details of Research Experience
 (1) Prove that if a rotation through an angle $\beta_{1}$ about the axis $n_1$ is followed by a rotation through an angle $\beta_{2}$ about an axis $n_2$, then the overall rotation is through an angle $\beta_{12}$ about an axis $n_{12}$ given by
 
 
+
 $$
 \begin{equation}
 c_{12} =c_{1} c_{2}-s_{1} s_{2} \hat{n}_{1} \cdot \hat{n}_{2}
@@ -50,6 +51,7 @@ where $c_{i}=\cos(\beta_{i} / 2), s_{i}=\sin (\beta_{i} / 2), c_{12}=\cos (\beta
 
 
 (2) Show that if $\beta_{1}=\beta_{2}$ and $\hat{n}_{1}=\hat{z}$ these equations simplify to
+
 
 
 $$
@@ -105,6 +107,8 @@ $$
 
 
 Thus:
+
+
 $$
 \begin{equation}
     q_{net} = [c_1c_2-s_1s_2\hat{n}_1\cdot \hat{n}_2,c_{1} s_{2} \hat{n}_{2}+s_{1} c_{2} \hat{n}_{1}+s_{1} s_{2} \hat{n}_{1} \times \hat{n}_{2}]
@@ -138,21 +142,39 @@ $$
 
 The key to solving such problems is how to decompose $\exp(\hat{H}t)$(When the dimension of H is very large, the method of exact diagonalization is not so suitable)
 
+
+
 When I first glance this equation, my first intuition is to use Taylor series expansion,when the time step $\tau$ is small.
+
+
 $$
 \hat{U}(\tau) = I+\tau H
 $$
+
+
 However, such a decomposition will result in the operator that is not unitary.
+
+
 
 Thus *Crank–Nicolson method*  may be a good method,which guarantee the operator is unitary.
 
+
+
 Nowadays he most common method used to solve the equation is **Trotter-Suzuki Formula**.Its main idea to decompose the exponential formula is making use of **Lie-Trotter-Suzuki Time Integration**
+
+
 $$
 \exp(t(H_1+\cdots+H_p)) = \lim_{m\to\infty}(\prod_{i=1}^{p} \exp(tH_i/m))^m
 $$
+
+
 where $H = \sum_{i=1}^{p}H_i$
 
+
+
 Because this method is very commonly used in quantum simulations.
+
+
 
 In superconducting circuit
 
@@ -165,4 +187,68 @@ In Ion Trap
 We use this method to simulate the propagation of electromagnetic waves in TM Mode
 
 <center>    <img src="/Homepage/images/Maxwell_Wave.gif">    <br>    <div style="color:orange; border-bottom: 1px solid #d9d9d9;    display: inline-block;    color: #999;    padding: 2px;">TM Mode Demo</div> </center>
+
+And Chebyshev Time Integration may also solve the problem fastly
+
+ 
+$$
+\exp(tH) = [J_0(z)I+2\sum_{n=1}^{+\infty}J_n(z)i^n T_n(B)]
+$$
+
+
+<center>    <img src="/Homepage/images/Maxwell_Wave.gif">    <br>    <div style="color:orange; border-bottom: 1px solid #d9d9d9;    display: inline-block;    color: #999;    padding: 2px;">The result of numerically solving the Schrödinger equation and its initial state is a Gaussian Wave(Grid)</div> </center>
+
+
+
+## Universal Quantum Circuit Simulator
+
+"易(Yi)" is a visualized universial quantum circuits[The limit on the number of qubits is 12] makes it extremely easy to build quantum circuits,intended to help people in about construct quantum circuits.
+
+
+
+When the number of qubits more than 12,"易" will act as a kit to plot quantum circuit,which then are able to be exported to, for example, [Qiskit](https://www.qiskit.org/) or our own compiler to compile.
+
+
+
+Input area:
+
+
+
+<center>    <img  src="/Homepage/images/uqc.png">    <br>    <div style="color:orange; border-bottom: 1px solid #d9d9d9;    display: inline-block;    color: #999;    padding: 2px;">DRAG AREA</div> </center>
+
+
+
+Group mode works when you want to move some quantum gate collectively.
+
+> The control gate will in the same group automatically.
+
+
+
+We provide two form of result:
+
+
+
+[Density Matrix](https://en.wikipedia.org/wiki/Density_matrix)
+
+
+
+Projection Probability:Take the inner product of each basis vector and the final evolved state.
+
+
+
+Output area
+
+
+
+<center>    <img  src="/Homepage/images/uqcoutput.png">    <br>    <div style="color:orange; border-bottom: 1px solid #d9d9d9;    display: inline-block;    color: #999;    padding: 2px;">OUTPUT</div> </center>
+
+
+
+More details:
+
+
+
+[Quantum Simulator](https://github.com/ElonDormancy/QuantumSimulator)
+
+
 
