@@ -39,7 +39,7 @@ Determined whether the ions($\ge2$) chain is "cold" from carrier transition and 
 
 + Used Python programming to obtain the mean vibrational quantum number and Rabi frequency
 
-<font Size = 20>Preparation of entangled state through Mølmer–Sørensen gate
+Preparation of entangled state through Mølmer–Sørensen gate
 
 + Derived of the evolution of the density matrix of two ions and state occupation under the drive of red and blue detuned lasers via series expansion/phase space method
 + Used Python programming to obtain optimal fidelity and the minimum time for Mølmer–Sørensen gate
