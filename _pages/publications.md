@@ -236,7 +236,7 @@ In the experiment the exact value of $\zeta$ is not easily controlled,the  numer
 
 
 
-A light field resonant with the transition will not only drive Rabi oscillations on this transition $|S,0\rangle\rightarrow |D,1\rangle$.But also off-resonantly drive the carrier transition $|S,0\rangle\rightarrow |D,0\rangle$
+A light field resonant with the transition will not only drive Rabi oscillations on this transition（$|S,0\rangle\rightarrow |D,1\rangle$）.But also off-resonantly drive the carrier transition （$|S,0\rangle\rightarrow |D,0\rangle$）
 
 
 
