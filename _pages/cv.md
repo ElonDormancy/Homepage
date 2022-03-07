@@ -21,6 +21,12 @@ Bayi Road Wuhan Hubei P.R China
 
 Email:[dormant@whu.edu.cn](mailto:dormant@whu.edu.cn)/[gchen_liu@163.com](mailto:gchen_liu@163.com)
 
+# **Education**
+
+**School of Physics and Technology,Wuhan University,Wuhan,Hubei China**    *2019.9-2023.7(Expected)*
+
+Tianjuan Class,a joint training class of the School of Physics of WHU and the WIPM of CAS.
+
 # **RESEARCH EXPERIENCES**
 
 #### *Quantum Information and Quantum Computing Seminar*
@@ -60,8 +66,3 @@ Atomic and optical physics experimental skills
 
 Programming skills: C,C++,Javascript,Python,Lisp(20k+)
 
-# **Education**
-
-**School of Physics and Technology,Wuhan University,Wuhan,Hubei China**    *2019.9-2023.7(Expected)*
-
-Tianjuan Class,a joint training class of the School of Physics of WHU and the WIPM of CAS.

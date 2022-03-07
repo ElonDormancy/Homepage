@@ -11,7 +11,7 @@ Details of Research Experience
 
 # Quantum Information and Quantum Computing Seminar
 
-> Through this seminar I master almost every detail of the QCQI and have a deep discussion with my classmates for each chapter and exercise.
+> Through this seminar I master almost every detail of the QCQI[1] and have a deep discussion with my classmates for each chapter and exercise.
 
 ***Exercise 4.15: (Composition of single qubit operations) The Bloch representation gives a nice way to visualize the effect of composing two rotations.***
 
@@ -123,12 +123,148 @@ $$
 $$
 
 $$
-    s_{12}\hat{n}_{12} = c_{1} s_{2} \hat{n}_{2}+s_{1} c_{2} \hat{n}_{1}-s_{1} s_{2} \hat{n}_{2} \times \hat{n}_{1}
+s_{12}\hat{n}_{12} = c_{1} s_{2} \hat{n}_{2}+s_{1} c_{2} \hat{n}_{1}-s_{1} s_{2} \hat{n}_{2} \times \hat{n}_{1}
+$$
+
+> [1] Nielsen M A, Chuang I. Quantum computation and quantum information[J]. 2002.
+
+# Experimental study of quantum information processing in the ion trap system
+
+
+
+Single ion's dynamics is dicussed detailed in [1]
+
+<center>    <img  src="/Homepage/images/two_ions_trap.png">    <br>    <div style="color:orange; border-bottom: 1px solid #d9d9d9;    display: inline-block;    color: #999;    padding: 2px;">Two Trapped Ions</div> </center>
+
+## Whether the ions chain is “cold”
+
+### Heating rate
+
+After sideband cooling,the population will oscillate with the following formula:[2]
+
+
+
+$$
+P_{S} = \frac{1}{2}(1+\sum_{n}p_n\cos(\Omega_{s+n,n}t))
 $$
 
 
 
-# Experimental study of quantum information processing in the ion trap system
+$$
+P_{D} = \frac{1}{2}(1-\sum_{n}p_n\cos(\Omega_{s+n,n}t))
+$$
+
+
+
+where $p_n = \frac{1}{\bar{n}+1}(\frac{\bar{n}}{\bar{n}+1})^n$,$s=1\rightarrow$blueband transition($\Omega_{n+1,n}=\eta\sqrt{n+1}\Omega_0$),$s=0\rightarrow$carrier transition($\Omega_{n,n}\approx\Omega_0(1-\eta^2n)$)
+
+
+
+<center>    <img  src="/Homepage/images/heating_rate.png">    <br>    <div style="color:orange; border-bottom: 1px solid #d9d9d9;    display: inline-block;    color: #999;    padding: 2px;">The mean vibrational mode is obtained by fitting the above formula</div> </center>
+
+
+
+Thus we can easily obtain the heating rate:
+
+<center>    <img  src="/Homepage/images/heating_rates.png">    <br>    <div style="color:orange; border-bottom: 1px solid #d9d9d9;    display: inline-block;    color: #999;    padding: 2px;">Heating Rate</div> </center>
+
+### Two Ions
+
+Thus based on the fitting formula above,we are able to obtain whether ions chain is "cold".
+
+
+
+Because the two ions are so close that the laser will irradiate the two ions directly.The population is:$P_{D\cdots D} = P_D^n$
+
+
+
+And fitting result will show below:
+
+
+
+<center>    <img  src="/Homepage/images/Two_Ions.png">    <br>    <div style="color:orange; border-bottom: 1px solid #d9d9d9;    display: inline-block;    color: #999;    padding: 2px;">Two Ions</div> </center>
+
+
+
+And we are able to get the mean vibrational mode to evaluate whether the ion chains are "cold"
+
+## Mølmer-Sørensen Gate
+
+The Mølmer–Sørensen gate is a two qubit gate,which is able to realize the preparation of entangled states without addressing the single ion.[3,4,5]
+
+
+
+I have derived the dynamics of MS by means of series expansion and phase space and obtained the same results.
+
+
+
+Further,based on the time evolution operator:
+
+
+
+$$
+U(t) = \hat{D}(\alpha(t)S_{y,\psi})\exp(i(\lambda t-\chi \sin(\epsilon t)S^2_{y,\psi} ))
+$$
+
+
+
+where $\psi = \frac{4\Omega}{\delta}\sin(\zeta)$
+
+
+
+when $\zeta=0$
+
+
+
+<center>    <img  src="/Homepage/images/ms_n=0.png">    <br>    <div style="color:orange; border-bottom: 1px solid #d9d9d9;    display: inline-block;    color: #999;    padding: 2px;">n=0</div> </center>
+
+<center>    <img  src="/Homepage/images/ms_n=20.png">    <br>    <div style="color:orange; border-bottom: 1px solid #d9d9d9;    display: inline-block;    color: #999;    padding: 2px;">n=20</div> </center>
+
+
+
+I propose a simpler numerical method to simulate this dynamics process and can be extended to more ions.
+
+The numerical result:
+
+<center>    <img  src="/Homepage/images/num_res_n=0.png">    <br>    <div style="color:orange; border-bottom: 1px solid #d9d9d9;    display: inline-block;    color: #999;    padding: 2px;">n=0</div> </center>
+
+<center>    <img  src="/Homepage/images/num_res_n=20.png">    <br>    <div style="color:orange; border-bottom: 1px solid #d9d9d9;    display: inline-block;    color: #999;    padding: 2px;">n=20</div> </center>
+
+The result almost the same.
+
+In the experiment the exact value of $\zeta$ is not easily controlled,the  numerical method will allow you to vary $\zeta$.
+
+
+
+A light field resonant with the transition will not only drive Rabi oscillations on this transition $|S,0\rangle\rightarrow |D,1\rangle$.But also off-resonantly drive the carrier transition $|S,0\rangle\rightarrow |D,0\rangle$
+
+
+
+<center>    <img  src="/Homepage/images/ms_c_n=0.png">    <br>    <div style="color:orange; border-bottom: 1px solid #d9d9d9;    display: inline-block;    color: #999;    padding: 2px;">n=0(Carrier Transition)</div> </center>
+
+
+
+Amplitude pulse shaping to suppress carrier transitions[6,7]:
+
+<center>    <img  src="/Homepage/images/suppres_c.jpg">    <br>    <div style="color:orange; border-bottom: 1px solid #d9d9d9;    display: inline-block;    color: #999;    padding: 2px;">Simulated time evolution for the system initially in the ground state for a Rabi frequency</div> </center>
+
+
+
+Blackman window shaping are able to suppress carrier transitions very well
+
+> [1] Leibfried, Dietrich, et al. "Quantum dynamics of single trapped ions." *Reviews of Modern Physics* 75.1 (2003): 281.
+>
+> [2] Hempel C. Digital quantum simulation, Schrödinger cat state spectroscopy and setting up a linear ion trap[D]. , 2014.
+>
+> [3] Roos C F. Ion trap quantum gates with amplitude-modulated laser beams[J]. New Journal of Physics, 2008, 10(1): 013002.
+>
+> [4] Kirchmair G, Benhelm J, Zähringer F, et al. Deterministic entanglement of ions in thermal states of motion[J]. New Journal of Physics, 2009, 11(2): 023002.
+>
+> [5] Shapira Y, Shaniv R, Manovitz T, et al. Robust entanglement gates for trapped-ion qubits[J]. Physical review letters, 2018, 121(18): 180502.
+>
+> [6] Kirchmair, Gerhard. *Quantum non-demolition measurements and quantum simulation*. na, 2010. 
+>
+> [7] Schindler, Philipp. *Frequency synthesis and pulse shaping for quantum information processing with trapped ions*. na, 2008.
 
 
 
@@ -138,7 +274,7 @@ $$
 
 The key to solving such problems is how to decompose $\exp(\hat{H}t)$(When the dimension of H is very large, the method of exact diagonalization is not so suitable)
 
-
+<center>    <img  src="/Homepage/images/simulation_2.png">    <br>    <div style="color:orange; border-bottom: 1px solid #d9d9d9;    display: inline-block;    color: #999;    padding: 2px;">Han J, Cai W, Hu L, et al.Physical Review Letters, 2021, 127(2): 020504.</div> </center>
 
 When I first glance this equation, my first intuition is to use Taylor series expansion,when the time step $\tau$ is small.
 
@@ -197,11 +333,11 @@ $$
 
 ## Universal Quantum Circuit Simulator
 
-"易(Yi)" is a visualized universial quantum circuits[The limit on the number of qubits is 12] makes it extremely easy to build quantum circuits,intended to help people in about construct quantum circuits.
+"UQCS" is a visualized universial quantum circuits[1,2] makes it extremely easy to build quantum circuits,intended to help people in about construct quantum circuits.
 
 
 
-When the number of qubits more than 12,"易" will act as a kit to plot quantum circuit,which then are able to be exported to, for example, [Qiskit](https://www.qiskit.org/) or our own compiler to compile.
+When the number of qubits more than 12,"UQCS" will act as a kit to plot quantum circuit,which then are able to be exported to our own compiler to compile.And you have ability to get everything about the circuit(for example the sketch figure of the circuit with $\LaTeX$ code )
 
 
 
@@ -247,3 +383,31 @@ More details:
 
 
 
+The method of simulation can be found in [3]
+
+
+
+> [1] https://github.com/Strilanc/Quirk
+>
+> [2] https://github.com/stewdio/q.js
+>
+> [3] De Raedt, Hans, and K. Michielsen. "Computational methods for simulating quantum computers." *arXiv preprint quant-ph/0406210* (2004).
+
+
+
+## Simulation in spin chain system
+
+Hamiltonian of a spin ½ system with N coupled spins:
+
+
+$$
+H(t)=-\sum_{i, j=1}^{N} \sum_{\alpha=x, y, z} J_{i, j}^{\alpha}(t) S_{i}^{\alpha} S_{j}^{\alpha}-\sum_{i, j=1}^{N} \sum_{\alpha=x, y, z} h_{i}^{\alpha}(t) S_{i}^{\alpha}
+$$
+
+
+And Chebyshev Time Integration can solve the problem fastly:
+
+
+$$
+\exp(tH) = [J_0(z)I+2\sum_{n=1}^{+\infty}J_n(z)i^n T_n(B)]
+$$
