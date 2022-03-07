@@ -9,6 +9,8 @@ classes: wide
 
 Details of Research Experience
 
+[toc]
+
 # Quantum Information and Quantum Computing Seminar
 
 > Through this seminar I master almost every detail of the QCQI[1] and have a deep discussion with my classmates for each chapter and exercise.
@@ -130,15 +132,11 @@ $$
 
 # Experimental study of quantum information processing in the ion trap system
 
-
-
 Single ion's dynamics is dicussed detailed in [1]
 
 <center>    <img  src="/Homepage/images/two_ions_trap.png">    <br>    <div style="color:orange; border-bottom: 1px solid #d9d9d9;    display: inline-block;    color: #999;    padding: 2px;">Two Trapped Ions</div> </center>
 
 ## Whether the ions chain is “cold”
-
-### Heating rate
 
 After sideband cooling,the population will oscillate with the following formula:[2]
 
@@ -166,9 +164,7 @@ where $p_n = \frac{1}{\bar{n}+1}(\frac{\bar{n}}{\bar{n}+1})^n$,$s=1\rightarrow$b
 
 Thus we can easily obtain the heating rate:
 
-<center>    <img  src="/Homepage/images/heating_rates.png">    <br>    <div style="color:orange; border-bottom: 1px solid #d9d9d9;    display: inline-block;    color: #999;    padding: 2px;">Heating Rate</div> </center>
-
-### Two Ions
+<center>    <img  src="/Homepage/images/heating_rates.png"  width="60%">    <br>    <div style="color:orange; border-bottom: 1px solid #d9d9d9;    display: inline-block;    color: #999;    padding: 2px;">Heating Rate</div> </center>
 
 Thus based on the fitting formula above,we are able to obtain whether ions chain is "cold".
 
@@ -182,7 +178,7 @@ And fitting result will show below:
 
 
 
-<center>    <img  src="/Homepage/images/Two_Ions.png">    <br>    <div style="color:orange; border-bottom: 1px solid #d9d9d9;    display: inline-block;    color: #999;    padding: 2px;">Two Ions</div> </center>
+<center>    <img  src="/Homepage/images/Two_Ions.png" width="60%">    <br>    <div style="color:orange; border-bottom: 1px solid #d9d9d9;    display: inline-block;    color: #999;    padding: 2px;">Two Ions</div> </center>
 
 
 
@@ -216,9 +212,9 @@ when $\zeta=0$
 
 
 
-<center>    <img  src="/Homepage/images/ms_n=0.png">    <br>    <div style="color:orange; border-bottom: 1px solid #d9d9d9;    display: inline-block;    color: #999;    padding: 2px;">n=0</div> </center>
+<center>    <img  src="/Homepage/images/ms_n=0.png" width="60%">    <br>    <div style="color:orange; border-bottom: 1px solid #d9d9d9;    display: inline-block;    color: #999;    padding: 2px;">n=0</div> </center>
 
-<center>    <img  src="/Homepage/images/ms_n=20.png">    <br>    <div style="color:orange; border-bottom: 1px solid #d9d9d9;    display: inline-block;    color: #999;    padding: 2px;">n=20</div> </center>
+<center>    <img  src="/Homepage/images/ms_n=20.png" width="60%">    <br>    <div style="color:orange; border-bottom: 1px solid #d9d9d9;    display: inline-block;    color: #999;    padding: 2px;">n=20</div> </center>
 
 
 
@@ -226,9 +222,9 @@ I propose a simpler numerical method to simulate this dynamics process and can b
 
 The numerical result:
 
-<center>    <img  src="/Homepage/images/num_res_n=0.png">    <br>    <div style="color:orange; border-bottom: 1px solid #d9d9d9;    display: inline-block;    color: #999;    padding: 2px;">n=0</div> </center>
+<center>    <img  src="/Homepage/images/num_res_n=0.png" width="60%">    <br>    <div style="color:orange; border-bottom: 1px solid #d9d9d9;    display: inline-block;    color: #999;    padding: 2px;">n=0</div> </center>
 
-<center>    <img  src="/Homepage/images/num_res_n=20.png">    <br>    <div style="color:orange; border-bottom: 1px solid #d9d9d9;    display: inline-block;    color: #999;    padding: 2px;">n=20</div> </center>
+<center>    <img  src="/Homepage/images/num_res_n=20.png" width="60%">    <br>    <div style="color:orange; border-bottom: 1px solid #d9d9d9;    display: inline-block;    color: #999;    padding: 2px;">n=20</div> </center>
 
 The result almost the same.
 
@@ -236,11 +232,11 @@ In the experiment the exact value of $\zeta$ is not easily controlled,the  numer
 
 
 
-A light field resonant with the transition will not only drive Rabi oscillations on this transition（$|S,0\rangle\rightarrow |D,1\rangle$）.But also off-resonantly drive the carrier transition （$|S,0\rangle\rightarrow |D,0\rangle$）
+A light field resonant with the transition will not only drive Rabi oscillations on this transition.But also off-resonantly drive the carrier transition.
 
 
 
-<center>    <img  src="/Homepage/images/ms_c_n=0.png">    <br>    <div style="color:orange; border-bottom: 1px solid #d9d9d9;    display: inline-block;    color: #999;    padding: 2px;">n=0(Carrier Transition)</div> </center>
+<center>    <img  src="/Homepage/images/ms_c_n=0.png" width="60%">    <br>    <div style="color:orange; border-bottom: 1px solid #d9d9d9;    display: inline-block;    color: #999;    padding: 2px;">n=0(Carrier Transition)</div> </center>
 
 
 
