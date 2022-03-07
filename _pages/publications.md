@@ -270,14 +270,16 @@ Blackman window shaping are able to suppress carrier transitions very well
 
 The key to solving such problems is how to decompose $\exp(\hat{H}t)$(When the dimension of H is very large, the method of exact diagonalization is not so suitable)
 
-<center>    <img  src="/Homepage/images/simulation_2.png">    <br>    <div style="color:orange; border-bottom: 1px solid #d9d9d9;    display: inline-block;    color: #999;    padding: 2px;">Han J, Cai W, Hu L, et al.Physical Review Letters, 2021, 127(2): 020504.</div> </center>
+
 
 When I first glance this equation, my first intuition is to use Taylor series expansion,when the time step $\tau$ is small.
+
 
 
 $$
 \hat{U}(\tau) = I+\tau H
 $$
+
 
 
 However, such a decomposition will result in the operator that is not unitary.
@@ -291,9 +293,11 @@ Thus *Crank–Nicolson method*  may be a good method,which guarantee the operato
 Nowadays he most common method used to solve the equation is **Trotter-Suzuki Formula**.Its main idea to decompose the exponential formula is making use of **Lie-Trotter-Suzuki Time Integration**
 
 
+
 $$
 \exp(t(H_1+\cdots+H_p)) = \lim_{m\to\infty}(\prod_{i=1}^{p} \exp(tH_i/m))^m
 $$
+
 
 
 where $H = \sum_{i=1}^{p}H_i$
