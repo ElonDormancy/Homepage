@@ -178,7 +178,7 @@ And fitting result will show below:
 
 
 
-<center>    <img  src="/Homepage/images/Two_Ions.png" width="60%">    <br>    <div style="color:orange; border-bottom: 1px solid #d9d9d9;    display: inline-block;    color: #999;    padding: 2px;">Two Ions</div> </center>
+<center>    <img  src="/Homepage/images/Two_Ions.jpg" width="60%">    <br>    <div style="color:orange; border-bottom: 1px solid #d9d9d9;    display: inline-block;    color: #999;    padding: 2px;">Two Ions</div> </center>
 
 
 
@@ -212,9 +212,9 @@ when $\zeta=0$
 
 
 
-<center>    <img  src="/Homepage/images/ms_n=0.png" width="60%">    <br>    <div style="color:orange; border-bottom: 1px solid #d9d9d9;    display: inline-block;    color: #999;    padding: 2px;">n=0</div> </center>
+<center>    <img  src="/Homepage/images/ms_n=0.jpg" width="60%">    <br>    <div style="color:orange; border-bottom: 1px solid #d9d9d9;    display: inline-block;    color: #999;    padding: 2px;">n=0</div> </center>
 
-<center>    <img  src="/Homepage/images/ms_n=20.png" width="60%">    <br>    <div style="color:orange; border-bottom: 1px solid #d9d9d9;    display: inline-block;    color: #999;    padding: 2px;">n=20</div> </center>
+<center>    <img  src="/Homepage/images/ms_n=20.jpg" width="60%">    <br>    <div style="color:orange; border-bottom: 1px solid #d9d9d9;    display: inline-block;    color: #999;    padding: 2px;">n=20</div> </center>
 
 
 
@@ -222,9 +222,9 @@ I propose a simpler numerical method to simulate this dynamics process and can b
 
 The numerical result:
 
-<center>    <img  src="/Homepage/images/num_res_n=0.png" width="60%">    <br>    <div style="color:orange; border-bottom: 1px solid #d9d9d9;    display: inline-block;    color: #999;    padding: 2px;">n=0</div> </center>
+<center>    <img  src="/Homepage/images/num_res_n=0.jpg" width="60%">    <br>    <div style="color:orange; border-bottom: 1px solid #d9d9d9;    display: inline-block;    color: #999;    padding: 2px;">n=0</div> </center>
 
-<center>    <img  src="/Homepage/images/num_res_n=20.png" width="60%">    <br>    <div style="color:orange; border-bottom: 1px solid #d9d9d9;    display: inline-block;    color: #999;    padding: 2px;">n=20</div> </center>
+<center>    <img  src="/Homepage/images/num_res_n=20.jpg" width="60%">    <br>    <div style="color:orange; border-bottom: 1px solid #d9d9d9;    display: inline-block;    color: #999;    padding: 2px;">n=20</div> </center>
 
 The result almost the same.
 
@@ -236,7 +236,7 @@ A light field resonant with the transition will not only drive Rabi oscillations
 
 
 
-<center>    <img  src="/Homepage/images/ms_c_n=0.png" width="60%">    <br>    <div style="color:orange; border-bottom: 1px solid #d9d9d9;    display: inline-block;    color: #999;    padding: 2px;">n=0(Carrier Transition)</div> </center>
+<center>    <img  src="/Homepage/images/ms_c_n=0.jpg" width="60%">    <br>    <div style="color:orange; border-bottom: 1px solid #d9d9d9;    display: inline-block;    color: #999;    padding: 2px;">n=0(Carrier Transition)</div> </center>
 
 
 
