@@ -414,6 +414,6 @@ $$
 
 <center>    <img  src="/Homepage/images/Ising_Model_Spins.gif">    <br>    <div style="color:orange; border-bottom: 1px solid #d9d9d9;    display: inline-block;    color: #999;    padding: 2px;">Ising-like Model</div> </center>	
 
-<center>    <img  src="/Homepage/images/Heisenberg Model_Spins.gif">    <br>    <div style="color:orange; border-bottom: 1px solid #d9d9d9;    display: inline-block;    color: #999;    padding: 2px;">Heisenberg Model</div> </center>	
+<center>    <img  src="/Homepage/images/Heisenberg_Model_Spins.gif">    <br>    <div style="color:orange; border-bottom: 1px solid #d9d9d9;    display: inline-block;    color: #999;    padding: 2px;">Heisenberg Model</div> </center>	
 
 From the method below we can simulate large scale spin system
