@@ -11,9 +11,13 @@ classes: wide
 
 <img src="/Homepage/images/banner.jpg">
 
+
+
 # Introduction
 
-I'm Guangcheng Liu,a student major in physics of WHU and I graduated in summer 2023.
+I'm Guangcheng Liu, a student majoring in physics at WHU and I graduated in the summer 2023.
+
+
 
 # My Latest Note<img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30">
 
@@ -31,7 +35,7 @@ I'm Guangcheng Liu,a student major in physics of WHU and I graduated in summer 2
 
 [Discrete Mathematics](https://zhuanlan.zhihu.com/p/149468789)
 
-[Classcial Mechanics](https://github.com/ElonDormancy/Physics-Note/blob/master/Note/ClasscialMechanicsReview.pdf)
+[Classical Mechanics](https://github.com/ElonDormancy/Physics-Note/blob/master/Note/ClasscialMechanicsReview.pdf)
 
 [Racket Homework](https://github.com/ElonDormancy/Physics-Note/tree/master/Note/Racket%20Note)
 

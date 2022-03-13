@@ -411,3 +411,9 @@ And Chebyshev Time Integration can solve the problem fastly:
 $$
 \exp(tH) = [J_0(z)I+2\sum_{n=1}^{+\infty}J_n(z)i^n T_n(B)]
 $$
+
+<center>    <img  src="/Homepage/images/Ising_Model_Spins.gif">    <br>    <div style="color:orange; border-bottom: 1px solid #d9d9d9;    display: inline-block;    color: #999;    padding: 2px;">Ising-like Model</div> </center>	
+
+<center>    <img  src="/Homepage/images/Heisenberg Model_Spins.gif">    <br>    <div style="color:orange; border-bottom: 1px solid #d9d9d9;    display: inline-block;    color: #999;    padding: 2px;">Heisenberg Model</div> </center>	
+
+From the method below we can simulate large scale spin system
