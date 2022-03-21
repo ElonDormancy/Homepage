@@ -13,7 +13,7 @@ Details of Research Experience
 
 # Quantum Information and Quantum Computing Seminar
 
-> Through this seminar I master almost every detail of the QCQI[1] and have a deep discussion with my classmates for each chapter and exercise.
+> Through this seminar, I master almost every detail of the QCQI[1] and have a deep discussion with my classmates for each chapter and exercise.
 
 ***Exercise 4.15: (Composition of single qubit operations) The Bloch representation gives a nice way to visualize the effect of composing two rotations.***
 
@@ -166,7 +166,7 @@ Thus we can easily obtain the heating rate:
 
 <center>    <img  src="/Homepage/images/heating_rates.png"  width="60%">    <br>    <div style="color:orange; border-bottom: 1px solid #d9d9d9;    display: inline-block;    color: #999;    padding: 2px;">Heating Rate</div> </center>
 
-Thus based on the fitting formula above,we are able to obtain whether ions chain is "cold".
+Thus based on the fitting formula above,we are able to obtain whether the ions chain is "cold".
 
 
 
@@ -416,4 +416,30 @@ $$
 
 <center>    <img  src="/Homepage/images/Heisenberg_Model_Spins.gif">    <br>    <div style="color:orange; border-bottom: 1px solid #d9d9d9;    display: inline-block;    color: #999;    padding: 2px;">Heisenberg Model</div> </center>	
 
-From the method below we can simulate large scale spin system
+From the method below we can simulate a large scale spin system
+
+## NMR Quantum Simulator
+
+Nuclear spin systems would be nearly ideal for quantum computation if only spin-spin couplings could be large and controllable.
+
+We will follow the step that the experiment do, and in the simulator, you can own your virtual NMR quantum simulator
+
+Let's begin with the thermal state:
+$$
+\rho_{\text{th}} = \frac{e^{-\beta \hat{H}}}{Z}
+$$
+In our simulator we can easily get the thermal state:
+
+
+
+And the sample we "use" is $CHCl_3$ which is a two qubit sample. Its related parameters are listed below
+
+|          | $C_{13}$ | $H_1$ | $T_1$ | $T_2$ |
+| :------: | -------- | ----- | ----- | ----- |
+| $C_{13}$ | 500M     | 215   | 18.8s | 0.35s |
+| $H_{1}$  | 215      | 125M  | 10.9s | 3.3s  |
+
+And the Hamiltonian in the $B_0$(z direction) is:
+$$
+\mathsf{H} = \sum_{i}\hbar\pi w_i \sigma_z^i+\sum_{i<k ,=1}\frac{\pi}{2}\hbar J_{ik}\sigma_z^i\sigma_z^k
+$$
