@@ -400,12 +400,15 @@ The method of simulation can be found in [3]
 Hamiltonian of a spin ½ system with N coupled spins:
 
 
+
 $$
 H(t)=-\sum_{i, j=1}^{N} \sum_{\alpha=x, y, z} J_{i, j}^{\alpha}(t) S_{i}^{\alpha} S_{j}^{\alpha}-\sum_{i, j=1}^{N} \sum_{\alpha=x, y, z} h_{i}^{\alpha}(t) S_{i}^{\alpha}
 $$
 
 
+
 And Chebyshev Time Integration can solve the problem fastly:
+
 
 
 $$
@@ -427,9 +430,13 @@ We will follow the step that the experiment do, and in the simulator, you can ow
 ### Initialization
 
 Let's begin with the thermal state:
+
+
 $$
 \rho_{\text{th}} = \frac{e^{-\beta \hat{H}}}{Z}
 $$
+
+
 In our simulator we can easily get the thermal state:($-2^{-n}I$)
 
 <center>    <img  src="/Homepage/images/NMR_Quantum_Simulator/Thermal_State.png">    <br>    <div style="color:orange; border-bottom: 1px solid #d9d9d9;    display: inline-block;    color: #999;    padding: 2px;">Thermal State</div> </center>	
@@ -439,9 +446,13 @@ Because of the difficulty in preparing pure spin states in NMR systems, almost a
 > Method:1.Temporal averaging 2.Spatial averaging
 
 A pseudo-pure state in a system of n spins is simply a mixed state of the form:
+
+
 $$
 \text{PPS} = \frac{1}{2^n}(1-\epsilon)I+\epsilon|\psi\rangle \langle \psi|
 $$
+
+
 And the sample we "use" is $CHCl_3$ which is a two qubit sample. Its related parameters are listed below[4]
 
 |          | $C_{13}$ | $H_1$ | $T_1$ | $T_2$ |
@@ -450,13 +461,21 @@ And the sample we "use" is $CHCl_3$ which is a two qubit sample. Its related par
 | $H_{1}$  | 215      | 125M  | 10.9s | 3.3s  |
 
 And the Hamiltonian in the $B_0$(z direction) is:
+
+
 $$
 \mathsf{H}_0 = \sum_{i}\hbar\pi w_i \sigma_z^i+\sum_{i<k ,=1}\frac{\pi}{2}\hbar J_{ik}\sigma_z^i\sigma_z^k
 $$
+
+
 And the control hamiltonian is:
+
+
 $$
 \mathsf{H}_{\text{rf}} = \sum_i^n -\hbar \gamma_i B_1[\cos(w_{\text{rf}}t+\phi))\sigma_x+\sin(w_{\text{rf}}t+\phi))\sigma_y
 $$
+
+
 The initial state is:$|00\rangle$
 
 <center>    <img  src="/Homepage/images/NMR_Quantum_Simulator/rho0.png">    <br>    <div style="color:orange; border-bottom: 1px solid #d9d9d9;    display: inline-block;    color: #999;    padding: 2px;">Initial State(00)</div> </center>	
@@ -467,7 +486,11 @@ We can control the control hamiltonian to realize the single qubit gate and cont
 
 For example ($R_x(\frac{\pi}{2})$)
 
+
+
 <center>    <img  src="/Homepage/images/NMR_Quantum_Simulator/rx1.png">    <br>    <div style="color:orange; border-bottom: 1px solid #d9d9d9;    display: inline-block;    color: #999;    padding: 2px;">X</div> </center>	
+
+
 
 ### Control Gate
 
@@ -480,9 +503,13 @@ The inital state set below is $|10\rangle$
 ### Noise
 
 We use kraus sum operation[5]
+
+
 $$
 \varepsilon(\rho) \rightarrow \sum_k E_k \rho E_k^\dagger
 $$
+
+
 And the operator $E_k$ is closely related to $T_1,T_2$,The room temperature
 
 We can use this model to simulate the decoherence process
