@@ -134,7 +134,7 @@ $$
 
 Single ion's dynamics is dicussed detailed in [1]
 
-<center>    <img  src="/Homepage/images/two_ions_trap.png">    <br>    <div style="color:orange; border-bottom: 1px solid #d9d9d9;    display: inline-block;    color: #999;    padding: 2px;">Two Trapped Ions</div> </center>
+<center>    <img  src="/Homepage/images/Ion_Trap_System/two_ions_trap.png">    <br>    <div style="color:orange; border-bottom: 1px solid #d9d9d9;    display: inline-block;    color: #999;    padding: 2px;">Two Trapped Ions</div> </center>
 
 ## Whether the ions chain is “cold”
 
@@ -158,13 +158,13 @@ where $p_n = \frac{1}{\bar{n}+1}(\frac{\bar{n}}{\bar{n}+1})^n$,$s=1\rightarrow$b
 
 
 
-<center>    <img  src="/Homepage/images/heating_rate.png">    <br>    <div style="color:orange; border-bottom: 1px solid #d9d9d9;    display: inline-block;    color: #999;    padding: 2px;">The mean vibrational mode is obtained by fitting the above formula</div> </center>
+<center>    <img  src="/Homepage/images/Ion_Trap_System/heating_rate.png">    <br>    <div style="color:orange; border-bottom: 1px solid #d9d9d9;    display: inline-block;    color: #999;    padding: 2px;">The mean vibrational mode is obtained by fitting the above formula</div> </center>
 
 
 
 Thus we can easily obtain the heating rate:
 
-<center>    <img  src="/Homepage/images/heating_rates.png"  width="60%">    <br>    <div style="color:orange; border-bottom: 1px solid #d9d9d9;    display: inline-block;    color: #999;    padding: 2px;">Heating Rate</div> </center>
+<center>    <img  src="/Homepage/images/Ion_Trap_System/heating_rates.png"  width="60%">    <br>    <div style="color:orange; border-bottom: 1px solid #d9d9d9;    display: inline-block;    color: #999;    padding: 2px;">Heating Rate</div> </center>
 
 Thus based on the fitting formula above,we are able to obtain whether the ions chain is "cold".
 
@@ -178,7 +178,7 @@ And fitting result will show below:
 
 
 
-<center>    <img  src="/Homepage/images/Two_Ions.jpg" width="60%">    <br>    <div style="color:orange; border-bottom: 1px solid #d9d9d9;    display: inline-block;    color: #999;    padding: 2px;">Two Ions</div> </center>
+<center>    <img  src="/Homepage/images/Ion_Trap_System/Two_Ions.jpg" width="60%">    <br>    <div style="color:orange; border-bottom: 1px solid #d9d9d9;    display: inline-block;    color: #999;    padding: 2px;">Two Ions</div> </center>
 
 
 
@@ -212,9 +212,9 @@ when $\zeta=0$
 
 
 
-<center>    <img  src="/Homepage/images/ms_n=0.jpg" width="60%">    <br>    <div style="color:orange; border-bottom: 1px solid #d9d9d9;    display: inline-block;    color: #999;    padding: 2px;">n=0</div> </center>
+<center>    <img  src="/Homepage/images/Ion_Trap_System/ms_n=0.jpg" width="60%">    <br>    <div style="color:orange; border-bottom: 1px solid #d9d9d9;    display: inline-block;    color: #999;    padding: 2px;">n=0</div> </center>
 
-<center>    <img  src="/Homepage/images/ms_n=20.jpg" width="60%">    <br>    <div style="color:orange; border-bottom: 1px solid #d9d9d9;    display: inline-block;    color: #999;    padding: 2px;">n=20</div> </center>
+<center>    <img  src="/Homepage/images/Ion_Trap_System/ms_n=20.jpg" width="60%">    <br>    <div style="color:orange; border-bottom: 1px solid #d9d9d9;    display: inline-block;    color: #999;    padding: 2px;">n=20</div> </center>
 
 
 
@@ -222,9 +222,9 @@ I propose a simpler numerical method to simulate this dynamics process and can b
 
 The numerical result:
 
-<center>    <img  src="/Homepage/images/num_res_n=0.jpg" width="60%">    <br>    <div style="color:orange; border-bottom: 1px solid #d9d9d9;    display: inline-block;    color: #999;    padding: 2px;">n=0</div> </center>
+<center>    <img  src="/Homepage/images/Ion_Trap_System/num_res_n=0.jpg" width="60%">    <br>    <div style="color:orange; border-bottom: 1px solid #d9d9d9;    display: inline-block;    color: #999;    padding: 2px;">n=0</div> </center>
 
-<center>    <img  src="/Homepage/images/num_res_n=20.jpg" width="60%">    <br>    <div style="color:orange; border-bottom: 1px solid #d9d9d9;    display: inline-block;    color: #999;    padding: 2px;">n=20</div> </center>
+<center>    <img  src="/Homepage/images/Ion_Trap_System/num_res_n=20.jpg" width="60%">    <br>    <div style="color:orange; border-bottom: 1px solid #d9d9d9;    display: inline-block;    color: #999;    padding: 2px;">n=20</div> </center>
 
 The result almost the same.
 
@@ -236,13 +236,13 @@ A light field resonant with the transition will not only drive Rabi oscillations
 
 
 
-<center>    <img  src="/Homepage/images/ms_c_n=0.jpg" width="60%">    <br>    <div style="color:orange; border-bottom: 1px solid #d9d9d9;    display: inline-block;    color: #999;    padding: 2px;">n=0(Carrier Transition)</div> </center>
+<center>    <img  src="/Homepage/images/Ion_Trap_System/ms_c_n=0.jpg" width="60%">    <br>    <div style="color:orange; border-bottom: 1px solid #d9d9d9;    display: inline-block;    color: #999;    padding: 2px;">n=0(Carrier Transition)</div> </center>
 
 
 
 Amplitude pulse shaping to suppress carrier transitions[6,7]:
 
-<center>    <img  src="/Homepage/images/suppres_c.jpg">    <br>    <div style="color:orange; border-bottom: 1px solid #d9d9d9;    display: inline-block;    color: #999;    padding: 2px;">Simulated time evolution for the system initially in the ground state for a Rabi frequency</div> </center>
+<center>    <img  src="/Homepage/images/Ion_Trap_System/suppres_c.jpg">    <br>    <div style="color:orange; border-bottom: 1px solid #d9d9d9;    display: inline-block;    color: #999;    padding: 2px;">Simulated time evolution for the system initially in the ground state for a Rabi frequency</div> </center>
 
 
 
@@ -345,7 +345,7 @@ Input area:
 
 
 
-<center>    <img  src="/Homepage/images/uqc.png">    <br>    <div style="color:orange; border-bottom: 1px solid #d9d9d9;    display: inline-block;    color: #999;    padding: 2px;">DRAG AREA</div> </center>
+<center>    <img  src="/Homepage/images/UQCS/uqc.png">    <br>    <div style="color:orange; border-bottom: 1px solid #d9d9d9;    display: inline-block;    color: #999;    padding: 2px;">DRAG AREA</div> </center>
 
 
 
@@ -371,7 +371,7 @@ Output area
 
 
 
-<center>    <img  src="/Homepage/images/uqcoutput.png">    <br>    <div style="color:orange; border-bottom: 1px solid #d9d9d9;    display: inline-block;    color: #999;    padding: 2px;">OUTPUT</div> </center>
+<center>    <img  src="/Homepage/images/UQCS/uqcoutput.png">    <br>    <div style="color:orange; border-bottom: 1px solid #d9d9d9;    display: inline-block;    color: #999;    padding: 2px;">OUTPUT</div> </center>
 
 
 
@@ -420,19 +420,29 @@ From the method below we can simulate a large scale spin system
 
 ## NMR Quantum Simulator
 
-Nuclear spin systems would be nearly ideal for quantum computation if only spin-spin couplings could be large and controllable.
+Nuclear spin systems would be nearly ideal for quantum computation if only spin-spin couplings could be large and controllable.[1,2,3]
 
 We will follow the step that the experiment do, and in the simulator, you can own your virtual NMR quantum simulator
+
+### Initialization
 
 Let's begin with the thermal state:
 $$
 \rho_{\text{th}} = \frac{e^{-\beta \hat{H}}}{Z}
 $$
-In our simulator we can easily get the thermal state:
+In our simulator we can easily get the thermal state:($-2^{-n}I$)
 
+<center>    <img  src="/Homepage/images/NMR_Quantum_Simulator/Thermal_State.png">    <br>    <div style="color:orange; border-bottom: 1px solid #d9d9d9;    display: inline-block;    color: #999;    padding: 2px;">Thermal State</div> </center>	
 
+Because of the difficulty in preparing pure spin states in NMR systems, almost all NMR quantum information processing experiments have used pseudo-pure states(PPS)
 
-And the sample we "use" is $CHCl_3$ which is a two qubit sample. Its related parameters are listed below
+> Method:1.Temporal averaging 2.Spatial averaging
+
+A pseudo-pure state in a system of n spins is simply a mixed state of the form:
+$$
+\text{PPS} = \frac{1}{2^n}(1-\epsilon)I+\epsilon|\psi\rangle \langle \psi|
+$$
+And the sample we "use" is $CHCl_3$ which is a two qubit sample. Its related parameters are listed below[4]
 
 |          | $C_{13}$ | $H_1$ | $T_1$ | $T_2$ |
 | :------: | -------- | ----- | ----- | ----- |
@@ -441,5 +451,53 @@ And the sample we "use" is $CHCl_3$ which is a two qubit sample. Its related par
 
 And the Hamiltonian in the $B_0$(z direction) is:
 $$
-\mathsf{H} = \sum_{i}\hbar\pi w_i \sigma_z^i+\sum_{i<k ,=1}\frac{\pi}{2}\hbar J_{ik}\sigma_z^i\sigma_z^k
+\mathsf{H}_0 = \sum_{i}\hbar\pi w_i \sigma_z^i+\sum_{i<k ,=1}\frac{\pi}{2}\hbar J_{ik}\sigma_z^i\sigma_z^k
 $$
+And the control hamiltonian is:
+$$
+\mathsf{H}_{\text{rf}} = \sum_i^n -\hbar \gamma_i B_1[\cos(w_{\text{rf}}t+\phi))\sigma_x+\sin(w_{\text{rf}}t+\phi))\sigma_y
+$$
+The initial state is:$|00\rangle$
+
+<center>    <img  src="/Homepage/images/NMR_Quantum_Simulator/rho0.png">    <br>    <div style="color:orange; border-bottom: 1px solid #d9d9d9;    display: inline-block;    color: #999;    padding: 2px;">Initial State(00)</div> </center>	
+
+We can control the control hamiltonian to realize the single qubit gate and control gate
+
+### Single Qubit Gate
+
+For example ($R_x(\frac{\pi}{2})$)
+
+<center>    <img  src="/Homepage/images/NMR_Quantum_Simulator/rx1.png">    <br>    <div style="color:orange; border-bottom: 1px solid #d9d9d9;    display: inline-block;    color: #999;    padding: 2px;">X</div> </center>	
+
+### Control Gate
+
+And also we can make use of J-J couple to realize the control gate:
+
+The inital state set below is $|10\rangle$
+
+<center>    <img  src="/Homepage/images/NMR_Quantum_Simulator/cnot1c2.png">    <br>    <div style="color:orange; border-bottom: 1px solid #d9d9d9;    display: inline-block;    color: #999;    padding: 2px;">CNOT</div> </center>	
+
+### Noise
+
+We use kraus sum operation[5]
+$$
+\varepsilon(\rho) \rightarrow \sum_k E_k \rho E_k^\dagger
+$$
+And the operator $E_k$ is closely related to $T_1,T_2$,The room temperature
+
+We can use this model to simulate the decoherence process
+
+<center>    <img  src="/Homepage/images/NMR_Quantum_Simulator/decoherence.png">    <br>    <div style="color:orange; border-bottom: 1px solid #d9d9d9;    display: inline-block;    color: #999;    padding: 2px;">Decoherence process</div> </center>	
+
+Up to now we can simulate the nmr quantum computation process
+
+> [1] Jones, Jonathan A. "Quantum computing with NMR." *arXiv preprint arXiv:1011.1382* (2010).
+>
+> [2] Vandersypen L M K, Chuang I L. NMR techniques for quantum control and computation[J]. Reviews of modern physics, 2005, 76(4): 1037.
+>
+> [3] Oliveira I, Sarthour Jr R, Bonagamba T, et al. NMR quantum information processing[M]. Elsevier, 2011.
+>
+> [4] Chuang, Isaac L., et al. "Experimental realization of a quantum algorithm." *Nature* 393.6681 (1998): 143-146.
+>
+> [5] Vandersypen L M K, Steffen M, Breyta G, et al. Experimental realization of Shor's quantum factoring algorithm using nuclear magnetic resonance[J]. Nature, 2001, 414(6866): 883-887.
+
