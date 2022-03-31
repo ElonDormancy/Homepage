@@ -19,7 +19,7 @@ a.uline {text-decoration:underline;}
 
 Bayi Road Wuhan Hubei P.R China
 
-Email:[dormant@whu.edu.cn](mailto:dormant@whu.edu.cn)/[gchen_liu@163.com](mailto:gchen_liu@163.com)
+Email:[dormant@whu.edu.cn](mailto:dormant@whu.edu.cn)
 
 # **Education**
 
@@ -29,7 +29,7 @@ Tianjuan Class,a joint training class of the School of Physics of WHU and the WI
 
 # **RESEARCH EXPERIENCES**
 
-#### *Quantum Information and Quantum Computing Seminar*
+## *Quantum Information and Quantum Computing Seminar*
 
 Learned the QCQI theory through different methods
 
@@ -37,7 +37,7 @@ Learned the QCQI theory through different methods
 
 ---
 
-#### *Experimental study of quantum information processing in the ion trap system*
+## *Experimental study of quantum information processing in the ion trap system*
 
 Determined whether the ions($\ge2$) chain is "cold" from carrier transition and blue band transition
 
@@ -52,7 +52,7 @@ Preparation of entangled state through Mølmer–Sørensen gate
 
 ---
 
-#### *Quantum Spin Systems and Quantum Computation(Simulation)*
+## *Quantum Spin Systems and Quantum Computation(Simulation)*
 
 Used Python and C++ programming to simulate the evolution process of electron spins in NMR system with large scale by using Chebyshev polynomial method
 
