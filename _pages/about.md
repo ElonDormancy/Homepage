@@ -17,9 +17,11 @@ classes: wide
 
 I'm Guangcheng Liu, a student majoring in physics at WHU and I graduated in the summer 2023.
 
+My interest of physics is Quantum Computation.
 
 
-# My Latest Note<img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30">
+
+# My Latest Note
 
 [Atomic Physics Review](https://github.com/ElonDormancy/Physics-Note/blob/master/Note/The_Review_of_Atomic_Physics.pdf)[[Simplified version](https://zhuanlan.zhihu.com/p/371286925)]
 
