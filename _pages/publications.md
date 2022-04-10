@@ -410,10 +410,13 @@ $$
 And Chebyshev Time Integration can solve the problem fastly:
 
 
-
 $$
 \exp(tH) = [J_0(z)I+2\sum_{n=1}^{+\infty}J_n(z)i^n T_n(B)]
 $$
+
+Example:
+
+
 
 <center>    <img  src="/Homepage/images/Ising_Model_Spins.gif">    <br>    <div style="color:orange; border-bottom: 1px solid #d9d9d9;    display: inline-block;    color: #999;    padding: 2px;">Ising-like Model</div> </center>	
 
@@ -435,6 +438,7 @@ Let's begin with the thermal state:
 $$
 \rho_{\text{th}} = \frac{e^{-\beta \hat{H}}}{Z}
 $$
+
 
 
 In our simulator we can easily get the thermal state:($-2^{-n}I$)
@@ -463,12 +467,13 @@ And the sample we "use" is $CHCl_3$ which is a two qubit sample. Its related par
 And the Hamiltonian in the $B_0$(z direction) is:
 
 
+
 $$
 \mathsf{H}_0 = \sum_{i}\hbar\pi w_i \sigma_z^i+\sum_{i<k ,=1}\frac{\pi}{2}\hbar J_{ik}\sigma_z^i\sigma_z^k
 $$
 
-
 And the control hamiltonian is:
+
 
 
 $$
@@ -476,7 +481,10 @@ $$
 $$
 
 
+
 The initial state is:$|00\rangle$
+
+
 
 <center>    <img  src="/Homepage/images/NMR_Quantum_Simulator/rho0.png">    <br>    <div style="color:orange; border-bottom: 1px solid #d9d9d9;    display: inline-block;    color: #999;    padding: 2px;">Initial State(00)</div> </center>	
 
@@ -488,6 +496,8 @@ For example ($R_x(\frac{\pi}{2})$)
 
 
 
+
+
 <center>    <img  src="/Homepage/images/NMR_Quantum_Simulator/rx1.png">    <br>    <div style="color:orange; border-bottom: 1px solid #d9d9d9;    display: inline-block;    color: #999;    padding: 2px;">X</div> </center>	
 
 
@@ -496,7 +506,11 @@ For example ($R_x(\frac{\pi}{2})$)
 
 And also we can make use of J-J couple to realize the control gate:
 
+
+
 The inital state set below is $|10\rangle$
+
+
 
 <center>    <img  src="/Homepage/images/NMR_Quantum_Simulator/cnot1c2.png">    <br>    <div style="color:orange; border-bottom: 1px solid #d9d9d9;    display: inline-block;    color: #999;    padding: 2px;">CNOT</div> </center>	
 
@@ -505,9 +519,11 @@ The inital state set below is $|10\rangle$
 We use kraus sum operation[5]
 
 
+
 $$
 \varepsilon(\rho) \rightarrow \sum_k E_k \rho E_k^\dagger
 $$
+
 
 
 And the operator $E_k$ is closely related to $T_1,T_2$,The room temperature
