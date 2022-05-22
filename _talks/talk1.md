@@ -1,9 +1,9 @@
 ---
-title: "Super Awesome Talk"
+title: "The Research of NV loading system"
 collection: talks
-type: "Colloquium"
+type: "Presentation"
 venue: "University"
-date: 2018-02-16
-location: "Atlantic Ocean"
+date: November 2021
+location: "Hubei,China"
 ---
 I talked about this stuff!

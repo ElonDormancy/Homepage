@@ -1,11 +1,10 @@
 ---
-title: "Publication 2"
+title: "Universal Quantum Computer Simulator"
 collection: publications
-permalink: /publications/publication2
-excerpt: "This is an example of a paper in prep"
-date: 2018-05-03
-venue: 'In Prep'
-publ: "false"
+permalink: /publications/uqcs
+excerpt: ""
+date: 2021-7-Present
+venue: 'COMPUTATIONAL PHYSICS GROUP(lead by Prof. Shengjun Yuan)'
 ---
 
 ### Summary
