@@ -54,6 +54,7 @@ Advisor: Prof Mang Feng/Fei Zhou
 + Derived of the evolution of two ions under the drive of red and blue detuned lasers via two method
 
 + Used Python programming to obtain optimal fidelity and the minimum time for MS gate operation
+
 ---
 
 ## Quantum Spin Systems and Quantum Computation(Simulation)
