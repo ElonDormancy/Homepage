@@ -18,13 +18,11 @@ a.uline {text-decoration:underline;}
 
 # **Guangcheng Liu(Dormancy)**
 
-Bayi Road Wuhan Hubei P.R China
-
 Email:[dormant@whu.edu.cn](mailto:dormant@whu.edu.cn)
 
-# **Education**
+# Education
 
-**School of Physics and Technology,Wuhan University,Wuhan,Hubei China**    *2019.9-2023.7(Expected)*
+School of Physics and Technology,Wuhan University,Wuhan,Hubei China   *2019.9-2023(Expected)*
 
 Tianjuan Class,a joint training class of the School of Physics of WHU and the WIPM of CAS.
 
@@ -72,9 +70,18 @@ Advisor:Prof Shengjun Yuan
 
 + Used program to simulate the quantum computer of NMR system by Chebyshev polynomial method
 
+
+# HONORS AND AWARDS
+
++ Lei Jun Scholarship in Wuhan University (highest honor)(1/1177)         2021
++ Outstanding First Class Scholarship,in Wuhan University                 2021
++ Outstanding student pacesetter,in Wuhan University                      2021
++ First Prize of National University Mathematics Competition              2020
++ First Prize of China Undergraduate Physicists'Tournament(CUPT)          2020
+
 # SKILLS
 
 Atomic and optical physics experimental skills
 
-Programming skills: C,C++,Javascript,Python,Lisp(20k+)
+Programming skills: C,C++,Javascript,Python,Lisp(10k+)
 
