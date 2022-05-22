@@ -3,7 +3,7 @@ title: "Ion Trap System"
 collection: publications
 permalink: /publications/iontrap
 excerpt: "Experimental study of quantum information processing in the ion trap system"
-date: 2021.7-Present
+date: 2021.7
 venue: 'APM'
 classes: wide
 ---
