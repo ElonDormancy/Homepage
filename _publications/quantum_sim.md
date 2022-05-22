@@ -1,5 +1,5 @@
 ---
-title: "Quantum Simulation"
+title: "Quantum Dynamics"
 collection: publications
 permalink: /publications/quantum_sim
 excerpt: "Numerical solution of PDE with high performance method"

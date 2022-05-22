@@ -73,11 +73,11 @@ Advisor:Prof Shengjun Yuan
 
 # HONORS AND AWARDS
 
-+ Lei Jun Scholarship in Wuhan University (highest honor)(1/1177)         2021
-+ Outstanding First Class Scholarship,in Wuhan University                 2021
-+ Outstanding student pacesetter,in Wuhan University                      2021
-+ First Prize of National University Mathematics Competition              2020
-+ First Prize of China Undergraduate Physicists'Tournament(CUPT)          2020
++ Lei Jun Scholarship in Wuhan University (highest honor)(1/1177)         
++ Outstanding First Class Scholarship,in Wuhan University                 
++ Outstanding student pacesetter,in Wuhan University                      
++ First Prize of National University Mathematics Competition              
++ First Prize of China Undergraduate Physicists'Tournament(CUPT)          
 
 # SKILLS
 

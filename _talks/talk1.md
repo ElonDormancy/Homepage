@@ -6,4 +6,4 @@ venue: "University"
 date: November 2021
 location: "Hubei,China"
 ---
-I talked about this stuff!
+An brief introduction to how to load the NV particle in the ion trap
