@@ -1,7 +1,7 @@
 ---
 title: "Quantum Simulation"
 collection: publications
-permalink: /publications/wave_sim
+permalink: /publications/quantum_sim
 excerpt: "Numerical solution of PDE with high performance method"
 date: 2021.4
 venue: 'COMPUTATIONAL PHYSICS GROUP(lead by Prof. Shengjun Yuan)'
@@ -52,15 +52,15 @@ Because this method is very commonly used in quantum simulations.
 
 In superconducting circuit
 
-<center>    <img  src="/Homepage/images/simulation_2.png">    <br>    <div style="color:orange; border-bottom: 1px solid #d9d9d9;    display: inline-block;    color: #999;    padding: 2px;">Han J, Cai W, Hu L, et al.Physical Review Letters, 2021, 127(2): 020504.</div> </center>
+<center>    <img  src="/Homepage/images/Quantum_Simulation/simulation_2.png">    <br>    <div style="color:orange; border-bottom: 1px solid #d9d9d9;    display: inline-block;    color: #999;    padding: 2px;">Han J, Cai W, Hu L, et al.Physical Review Letters, 2021, 127(2): 020504.</div> </center>
 
 In Ion Trap
 
-<center>    <img src="/Homepage/images/simulation_1.png">    <br>    <div style="color:orange; border-bottom: 1px solid #d9d9d9;    display: inline-block;    color: #999;    padding: 2px;">Hempel, Cornelius.Diss. 2014.</div> </center>
+<center>    <img src="/Homepage/images/Quantum_Simulation/simulation_1.png">    <br>    <div style="color:orange; border-bottom: 1px solid #d9d9d9;    display: inline-block;    color: #999;    padding: 2px;">Hempel, Cornelius.Diss. 2014.</div> </center>
 
 We use this method to simulate the propagation of electromagnetic waves in TM Mode
 
-<center>    <img src="/Homepage/images/Maxwell_Wave.gif">    <br>    <div style="color:orange; border-bottom: 1px solid #d9d9d9;    display: inline-block;    color: #999;    padding: 2px;">TM Mode Demo</div> </center>
+<center>    <img src="/Homepage/images/Quantum_Simulation/Maxwell_Wave.gif">    <br>    <div style="color:orange; border-bottom: 1px solid #d9d9d9;    display: inline-block;    color: #999;    padding: 2px;">TM Mode Demo</div> </center>
 
 And Chebyshev Time Integration may also solve the problem fastly
 
@@ -69,4 +69,4 @@ $$
 \exp(tH) = [J_0(z)I+2\sum_{n=1}^{+\infty}J_n(z)i^n T_n(B)]
 $$
 
-<center>    <img src="/Homepage/images/Schrodinger.gif">    <br>    <div style="color:orange; border-bottom: 1px solid #d9d9d9;    display: inline-block;    color: #999;    padding: 2px;">The result of numerically solving the Schrödinger equation and its initial state is a Gaussian Wave(Grid)</div> </center>
+<center>    <img src="/Homepage/images/Quantum_Simulation/Schrodinger.gif">    <br>    <div style="color:orange; border-bottom: 1px solid #d9d9d9;    display: inline-block;    color: #999;    padding: 2px;">The result of numerically solving the Schrödinger equation and its initial state is a Gaussian Wave(Grid)</div> </center>
