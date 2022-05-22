@@ -28,38 +28,48 @@ Email:[dormant@whu.edu.cn](mailto:dormant@whu.edu.cn)
 
 Tianjuan Class,a joint training class of the School of Physics of WHU and the WIPM of CAS.
 
-# **RESEARCH EXPERIENCES**
+# RESEARCH EXPERIENCES
 
-## *Quantum Information and Quantum Computing Seminar*
+## Quantum Information and Quantum Computing Seminar
+
+Advisor: Prof Zhaofeng Su/Cheng Guo
 
 Learned the QCQI theory through different methods
 
-+ Solved the rotation path problem on Bloch sphere via quaternion method
 
 ---
 
-## *Experimental study of quantum information processing in the ion trap system*
+## Experimental study of quantum information processing in the ion trap system
 
-Determined whether the ions($\ge2$) chain is "cold" from carrier transition and blue band transition
+Advisor: Prof Mang Feng/Fei Zhou
+
+### Motional state of two trapped ions analysis
 
 + Derived the formula of population after carrier transition and blue band transition
 
 + Used Python programming to obtain the mean vibrational quantum number and Rabi frequency
 
-Preparation of entangled state through Mølmer–Sørensen gate
+### Preparation of entangled state through Mølmer–Sørensen gate
 
-+ Derived of the evolution of the density matrix of two ions and state occupation under the drive of red and blue detuned lasers via series expansion/phase space method
-+ Used Python programming to obtain optimal fidelity and the minimum time for Mølmer–Sørensen gate
++ Derived of the evolution of two ions under the drive of red and blue detuned lasers via two method
 
++ Used Python programming to obtain optimal fidelity and the minimum time for MS gate operation
 ---
 
-## *Quantum Spin Systems and Quantum Computation(Simulation)*
+## Quantum Spin Systems and Quantum Computation(Simulation)
 
-Used Python and C++ programming to simulate the evolution process of electron spins in NMR system with large scale by using Chebyshev polynomial method
+Advisor:Prof Shengjun Yuan
 
-Developed a high-performance universal quantum simulator with MPI that can easily build quantum circuits and map them to various physical systems[such as NMR,Ion Trap,Superconducting and so on]
+### Universal Quantum Computer Simulator Development
 
-Designed a Javascript program to make it extremely easy to build quantum circuits and simulate universal quantum circuit
++ Designed a Javascript program to easily build quantum circuits and simulate the universal quantum circuits
+
++ Developed a high-performance universal quantum simulator with MPI to build large scale quantum circuits
+
+
+### Physical Quantum Computer Simulator Development
+
++ Used program to simulate the quantum computer of NMR system by Chebyshev polynomial method
 
 # SKILLS
 

@@ -2,9 +2,11 @@
 title: "Universal Quantum Computer Simulator"
 collection: publications
 permalink: /publications/uqcs
-excerpt: "Universal Quantum Computer Simulator is a library for easily constructing quantum circuit,universal quantum circuit simulation and the simulation of major quantum computer physical system."
-date: 2021.7
+excerpt: "universal quantum circuit simulation(including physical system)"
+date: 2022.1
 venue: 'COMPUTATIONAL PHYSICS GROUP(lead by Prof. Shengjun Yuan)'
+publ: "false"
+classes: wide
 ---
 
 
