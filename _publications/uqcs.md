@@ -11,7 +11,7 @@ classes: wide
 
 ## Universal Quantum Circuit Simulator
 
-"UQCS" is a visualized universial quantum circuits[1,2] makes it extremely easy to build quantum circuits,intended to help people in about construct quantum circuits.
+"UQCS" is a visualized universal quantum circuits[1,2] makes it extremely easy to build quantum circuits,intended to help people in about construct quantum circuits.
 
 
 

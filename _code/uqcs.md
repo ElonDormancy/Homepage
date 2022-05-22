@@ -2,7 +2,7 @@
 title: "UQCS"
 collection: code
 permalink: /code/uqcs
-excerpt: "A package that calculates some numbers!"
+excerpt: "universal quantum computer simulator"
 date: 2022.1
 repo: "https://github.com/Santics/UQCS"
 ---
