@@ -3,7 +3,7 @@ title: "UQCS"
 collection: code
 permalink: /code/uqcs
 excerpt: "A package that calculates some numbers!"
-date: 2022
+date: 2022.1
 repo: "https://github.com/Santics/UQCS"
 ---
 
