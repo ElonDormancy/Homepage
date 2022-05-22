@@ -6,7 +6,6 @@ excerpt: "Learned the QCQI theory through different methods"
 date: 2021.7
 venue: 'University of Science and Technology of China(USTC)'
 classes: wide
-publ: "false"
 ---
 
 

@@ -77,7 +77,7 @@ naver_site_verification  :
 
 # Social Sharing
 twitter:
-  username               :
+  username               : "Dormancy"
 facebook:
   username               :
   app_id                 :
@@ -124,7 +124,7 @@ author:
   googlescholar    : 
   pinterest        :
   soundcloud       :
-  stackoverflow    : # "123456/username" (the last part of your profile url, e.g. https://stackoverflow.com/users/123456/username)
+  stackoverflow    : "788471/elon-dormancy"  # "123456/username" (the last part of your profile url, e.g. https://stackoverflow.com/users/788471/elon-dormancy)
   steam            : # "steamId" (the last part of your profile url, e.g. https://steamcommunity.com/id/steamId/)
   tumblr           :
   twitter          :

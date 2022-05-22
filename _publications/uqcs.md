@@ -5,7 +5,6 @@ permalink: /publications/uqcs
 excerpt: "universal quantum circuit simulation(including physical system)"
 date: 2022.1
 venue: 'COMPUTATIONAL PHYSICS GROUP(lead by Prof. Shengjun Yuan)'
-publ: "false"
 classes: wide
 ---
 
@@ -122,7 +121,7 @@ $$
 
 In our simulator we can easily get the thermal state:($-2^{-n}I$)
 
-<center>    <img  src="/Homepage/images/NMR_Quantum_Simulator/Thermal_State.png">    <br>    <div style="color:orange; border-bottom: 1px solid #d9d9d9;    display: inline-block;    color: #999;    padding: 2px;">Thermal State</div> </center>	
+<center><img  src="/Homepage/images/NMR_Quantum_Simulator/Thermal_State.png">    <br> <div style="width=40%;color:orange; border-bottom: 1px solid #d9d9d9;    display: inline-block;    color: #999;    padding: 2px;">Thermal State</div> </center>	
 
 Because of the difficulty in preparing pure spin states in NMR systems, almost all NMR quantum information processing experiments have used pseudo-pure states(PPS)
 

@@ -1,11 +1,10 @@
 ---
-title: "Simulation of PDE"
+title: "Quantum Simulation"
 collection: publications
 permalink: /publications/wave_sim
 excerpt: "Numerical solution of PDE with high performance method"
 date: 2021.4
 venue: 'COMPUTATIONAL PHYSICS GROUP(lead by Prof. Shengjun Yuan)'
-publ: "false"
 classes: wide
 ---
 

@@ -6,7 +6,6 @@ excerpt: "Experimental study of quantum information processing in the ion trap s
 date: 2022.5
 venue: 'APM'
 classes: wide
-publ: "false"
 ---
 # Experimental study of quantum information processing in the ion trap system
 
