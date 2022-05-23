@@ -160,7 +160,7 @@ $$
 
 
 
-The initial state is:$|00\rangle$
+The initial state is: |00>
 
 
 
@@ -186,7 +186,7 @@ And also we can make use of J-J couple to realize the control gate:
 
 
 
-The inital state set below is $|10\rangle$
+The inital state set below is |10>
 
 
 
