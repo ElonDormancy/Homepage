@@ -12,7 +12,7 @@
 
 # theme                  : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise","sunrise"
+minimal_mistakes_skin    : "neon" #"default" "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise","sunrise"
 
 # Site Settings
 locale                   : "en-US"
@@ -124,7 +124,7 @@ author:
   googlescholar    : 
   pinterest        :
   soundcloud       :
-  stackoverflow    : "788471/elon-dormancy"  # "123456/username" (the last part of your profile url, e.g. https://stackoverflow.com/users/788471/elon-dormancy)
+  stackoverflow    : "12832624/elon-dormancy"  # "123456/username" (the last part of your profile url, e.g. https://stackoverflow.com/users/788471/elon-dormancy)
   steam            : # "steamId" (the last part of your profile url, e.g. https://steamcommunity.com/id/steamId/)
   tumblr           :
   twitter          :
