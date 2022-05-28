@@ -47,7 +47,7 @@ Thus based on the fitting formula above,we are able to obtain whether the ions c
 
 
 
-Because the two ions are so close that the laser will irradiate the two ions directly.The population is:$P_{D\cdots D} = P_D^n$
+Because the two ions are so close that the laser will irradiate the two ions directly.The population is:$P_{D\cdots D} = P_D^n$(This fitting formula is wrong)
 
 
 
@@ -107,7 +107,11 @@ The result almost the same.
 
 In the experiment the exact value of $\zeta$ is not easily controlled,the  numerical method will allow you to vary $\zeta$.
 
+For example:
 
+<center>    <img  src="/Homepage/images/Ion_Trap_System/MSGate.png" width="60%">    <br>    <div style="color:orange; border-bottom: 1px solid #d9d9d9;    display: inline-block;    color: #999;    padding: 2px;">Time evolution of MS gates</div> </center>
+
+Where $\Omega = 0.0885\nu$, $\eta = 0.1$, $\epsilon = 0.05\nu$, $\bar{n} =2$,(a) $\phi = 0$,(b) $\phi = \frac{\pi}{2}$
 
 A light field resonant with the transition will not only drive Rabi oscillations on this transition.But also off-resonantly drive the carrier transition.
 
