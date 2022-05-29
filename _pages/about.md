@@ -52,7 +52,5 @@ In addition, I attended a [seminar](https://elondormancy.github.io/Homepage/publ
 
 [Racket Homework](https://github.com/ElonDormancy/Physics-Note/tree/master/Note/Racket%20Note)
 
-[BP Network Based on Lisp](https://github.com/ElonDormancy/Physics-Note/blob/master/Note/Neuron_Networks.pdf)
-
 [Advanced Quantum Mechanics](https://github.com/ElonDormancy/Physics-Note/blob/master/Note/AdvancedQuantumMechanicsReview.pdf)
 
