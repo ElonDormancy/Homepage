@@ -11,7 +11,7 @@ classes: wide
 
 Single ion's dynamics is dicussed detailed in [1]
 
-<center><img  src="/Homepage/images/Ion_Trap_System/two_ions_trap.png">    <br>    <div style="color:orange; border-bottom: 1px solid #d9d9d9;    display: inline-block;    color: #999;    padding: 2px;">Two Trapped Ions</div> </center>
+<center><img  src="/Homepage/images/Ion_Trap_System/two_ions_trap.png" width="60%">    <br>    <div style="color:orange; border-bottom: 1px solid #d9d9d9;    display: inline-block;    color: #999;    padding: 2px;">Two Trapped Ions</div> </center>
 
 ## Whether the ions chain is “cold”
 
@@ -109,7 +109,7 @@ In the experiment the exact value of $\zeta$ is not easily controlled,the  numer
 
 For example:
 
-<center>    <img  src="/Homepage/images/Ion_Trap_System/MSGate.png" width="60%">    <br>    <div style="color:orange; border-bottom: 1px solid #d9d9d9;    display: inline-block;    color: #999;    padding: 2px;">Time evolution of MS gates</div> </center>
+<center>    <img  src="/Homepage/images/Ion_Trap_System/MSGate.png">    <br>    <div style="color:orange; border-bottom: 1px solid #d9d9d9;    display: inline-block;    color: #999;    padding: 2px;">Time evolution of MS gates</div> </center>
 
 Where $\Omega = 0.0885\nu$, $\eta = 0.1$, $\epsilon = 0.05\nu$, $\bar{n} =2$,(a) $\phi = 0$,(b) $\phi = \frac{\pi}{2}$
 

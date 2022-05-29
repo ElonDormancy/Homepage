@@ -17,7 +17,7 @@ classes: wide
 
 When the number of qubits more than 12,"UQCS" will act as a kit to plot quantum circuit,which then are able to be exported to our own compiler to compile.And you have ability to get everything about the circuit(for example the sketch figure of the circuit with $\LaTeX$ code )
 
-
+Try it out [UQCS](https://santics.github.io/UQCS/)
 
 Input area:
 
@@ -57,7 +57,7 @@ More details:
 
 
 
-[Quantum Simulator](https://github.com/ElonDormancy/QuantumSimulator)
+[Quantum Simulator](https://github.com/Santics/UQCS)
 
 
 
@@ -96,9 +96,9 @@ Example:
 
 
 
-<center>    <img  src="/Homepage/images/Quantum_Simulation/Ising_Model_Spins.gif">    <br>    <div style="color:orange; border-bottom: 1px solid #d9d9d9;    display: inline-block;    color: #999;    padding: 2px;">Ising-like Model</div> </center>	
+<center>    <img  src="/Homepage/images/Quantum_Simulation/Ising_Model_Spins.gif" width="70%">    <br>    <div style="color:orange; border-bottom: 1px solid #d9d9d9;    display: inline-block;    color: #999;    padding: 2px;">Ising-like Model</div> </center>	
 
-<center>    <img  src="/Homepage/images/Quantum_Simulation/Heisenberg_Model_Spins.gif">    <br>    <div style="color:orange; border-bottom: 1px solid #d9d9d9;    display: inline-block;    color: #999;    padding: 2px;">Heisenberg Model</div> </center>	
+<center>    <img  src="/Homepage/images/Quantum_Simulation/Heisenberg_Model_Spins.gif" width="70%">    <br>    <div style="color:orange; border-bottom: 1px solid #d9d9d9;    display: inline-block;    color: #999;    padding: 2px;">Heisenberg Model</div> </center>	
 
 From the method below we can simulate a large scale spin system
 
@@ -121,7 +121,7 @@ $$
 
 In our simulator we can easily get the thermal state:($-2^{-n}I$)
 
-<center><img  src="/Homepage/images/NMR_Quantum_Simulator/Thermal_State.png">    <br> <div style="width=40%;color:orange; border-bottom: 1px solid #d9d9d9;    display: inline-block;    color: #999;    padding: 2px;">Thermal State</div> </center>	
+<center><img  src="/Homepage/images/NMR_Quantum_Simulator/Thermal_State.png" width="50%">    <br> <div style="color:orange; border-bottom: 1px solid #d9d9d9;    display: inline-block;    color: #999;    padding: 2px;">Thermal State</div> </center>	
 
 Because of the difficulty in preparing pure spin states in NMR systems, almost all NMR quantum information processing experiments have used pseudo-pure states(PPS)
 
@@ -160,11 +160,8 @@ $$
 
 
 
-The initial state is: |00>
 
-
-
-<center>    <img  src="/Homepage/images/NMR_Quantum_Simulator/rho0.png">    <br>    <div style="color:orange; border-bottom: 1px solid #d9d9d9;    display: inline-block;    color: #999;    padding: 2px;">Initial State(00)</div> </center>	
+<center> <img  src="/Homepage/images/NMR_Quantum_Simulator/rho0.png" width="70%">    <br>    <div style="color:orange; border-bottom: 1px solid #d9d9d9;    display: inline-block;    color: #999;    padding: 2px;">The matrix of initial state(\ket{00})(a)Real(b)Imag</div> </center>	
 
 We can control the control hamiltonian to realize the single qubit gate and control gate
 
@@ -176,21 +173,21 @@ For example ($R_x(\frac{\pi}{2})$)
 
 
 
-<center>    <img  src="/Homepage/images/NMR_Quantum_Simulator/rx1.png">    <br>    <div style="color:orange; border-bottom: 1px solid #d9d9d9;    display: inline-block;    color: #999;    padding: 2px;">X</div> </center>	
+<center>    <img  src="/Homepage/images/NMR_Quantum_Simulator/rx1.png" width="70%">    <br>    <div style="color:orange; border-bottom: 1px solid #d9d9d9;    display: inline-block;    color: #999;    padding: 2px;">X</div> </center>	
 
 
 
 ### Control Gate
 
-And also we can make use of J-J couple to realize the control gate:
+And also we can make use of J-J couple to realize the control gate:(the inital state set below is |10>)
 
 
 
-The inital state set below is |10>
 
 
 
-<center>    <img  src="/Homepage/images/NMR_Quantum_Simulator/cnot1c2.png">    <br>    <div style="color:orange; border-bottom: 1px solid #d9d9d9;    display: inline-block;    color: #999;    padding: 2px;">CNOT</div> </center>	
+
+<center><img  src="/Homepage/images/NMR_Quantum_Simulator/cnot1c2.png" width="70%">    <br>    <div style="color:orange; border-bottom: 1px solid #d9d9d9;    display: inline-block;    color: #999;    padding: 2px;">CNOT</div> </center>	
 
 ### Noise
 

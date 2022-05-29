@@ -69,4 +69,4 @@ $$
 \exp(tH) = [J_0(z)I+2\sum_{n=1}^{+\infty}J_n(z)i^n T_n(B)]
 $$
 
-<center>    <img src="/Homepage/images/Quantum_Simulation/Schrodinger.gif">    <br>    <div style="color:orange; border-bottom: 1px solid #d9d9d9;    display: inline-block;    color: #999;    padding: 2px;">The result of numerically solving the Schrödinger equation and its initial state is a Gaussian Wave(Grid)</div> </center>
+<center>    <img src="/Homepage/images/Quantum_Simulation/Schrodinger.gif" width = "60%">    <br>    <div style="color:orange; border-bottom: 1px solid #d9d9d9;    display: inline-block;    color: #999;    padding: 2px;">The result of numerically solving the Schrödinger equation and its initial state is a Gaussian Wave(Grid)</div> </center>
