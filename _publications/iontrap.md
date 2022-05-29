@@ -55,7 +55,7 @@ And fitting result will show below:
 
 
 
-<center>    <img  src="/Homepage/images/Ion_Trap_System/Two_Ions.jpg" width="60%">    <br>    <div style="color:orange; border-bottom: 1px solid #d9d9d9;    display: inline-block;    color: #999;    padding: 2px;">Two Ions</div> </center>
+<center>    <img  src="/Homepage/images/Ion_Trap_System/Two_Ions.jpg" width="60%">    <br>    <div style="color:orange; border-bottom: 1px solid #d9d9d9;    display: inline-block;    color: #999;    padding: 2px;">Two Ions(the mean vibrational mode is obtained by fitting formula above)</div> </center>
 
 
 

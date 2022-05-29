@@ -31,6 +31,7 @@ Group mode works when you want to move some quantum gate collectively.
 
 > The control gate will in the same group automatically.
 
+<center>    <img  src="/Homepage/images/UQCS/UqcGroupMode.png">    <br>    <div style="color:orange; border-bottom: 1px solid #d9d9d9;    display: inline-block;    color: #999;    padding: 2px;">Group Mode(You can move the selected area at once)</div> </center>
 
 
 We provide two form of result:
