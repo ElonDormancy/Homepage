@@ -20,7 +20,7 @@ a.uline {text-decoration:underline;}
 
 Email:[dormant@whu.edu.cn](mailto:dormant@whu.edu.cn)
 
-# Education
+# EDUCATION
 
 School of Physics and Technology,Wuhan University,Wuhan,Hubei China   *2019.9-2023(Expected)*
 

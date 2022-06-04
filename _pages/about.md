@@ -9,15 +9,15 @@ redirect_from:
 classes: wide
 ---
 
-<img src="/Homepage/images/banner.jpg">
+<img src="/Homepage/images/instruction.jpg">
 
 
 
 # Introduction
 
-I'm Guangcheng Liu, a student majoring in physics at WHU and I graduated in the summer 2023.
+I'm Guangcheng Liu, a student majoring in physics at Wuhan University and I graduated in the summer 2023.
 
-My interest of physics is Quantum Computation.
+My interest of physics is Quantum Computation (especially in ion trap).
 
 ## Research Experience & Personal Research Interests
 
