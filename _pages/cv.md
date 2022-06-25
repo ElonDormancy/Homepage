@@ -26,6 +26,15 @@ School of Physics and Technology,Wuhan University,Wuhan,Hubei China   *2019.9-20
 
 Tianjuan Class,a joint training class of the School of Physics of WHU and the WIPM of CAS.
 
++ GPA 3.85/4.0 (major) 3.87/4.0(total)
++ Rank 2/333 in School of Physics
+
+*Core Course*:Quantum Mechanics(98) Classical Mechanics(97) ODE(98) Electromagnetism(93) Computational Physics(100) Atomic Physics(93) Optics(94) Thermodynamics and Statistical Mechanics (92)
+Probability Theory and Statistics(96)
+
+Advanced Quantum Mechanics(86) QIQC(90) Quantum Optics
+
+
 # RESEARCH EXPERIENCES
 
 ## Quantum Information and Quantum Computing Seminar
